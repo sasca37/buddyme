@@ -32,12 +32,14 @@
 - 개발환경 홈서버 구축 (Self-Hosted, MacMini)
 
 ## 내가 주도한 부분
-- [협업 컨벤션을 위한 Github Project 사용 규칙 정하기] (https://github.com/freediving-community/api-server/issues/3)
-- [유저 서비스 도메인 모델링] (https://github.com/freediving-community/api-server/issues/1)
-- [팀원들이 유저 조회 API 사용을 위한 인터페이스 설계 및 공유] (https://github.com/freediving-community/api-server/issues/86)
-- [알림이력 FLOW 정리] (https://github.com/freediving-community/api-server/issues/191)
-- [Spring Cloud 환경 내 MSA CI & CD 환경 구축] (https://github.com/freediving-community/api-server/issues/30)
-- [이미지 최적화를 위한 AWS S3 Presigned URL] (https://github.com/freediving-community/api-server/issues/66)
+- [협업 컨벤션을 위한 Github Project 사용 규칙 정하기](https://github.com/freediving-community/api-server/issues/3)
+- [유저 서비스 도메인 모델링](https://github.com/freediving-community/api-server/issues/1)
+- [소셜로그인 및 서비스 간 JWT 인증/인가 로직 개발 코드](https://github.com/freediving-community/api-server/pull/26/commits/f2a7f94e1cf96d63e821cb1e2099e1ae484854d1)
+- [MSA 환경에서 유저 조회 API 설계](https://github.com/freediving-community/api-server/issues/86)
+- [알림이력 FLOW 및 kafka 메시징 사용법 정리](https://github.com/freediving-community/api-server/issues/191)
+- [Spring Cloud 환경 내 MSA CI & CD 환경 구축](https://github.com/freediving-community/api-server/wiki/CI-&-CD-%EA%B5%AC%EC%B6%95)
+- [이미지 최적화를 위한 AWS S3 Presigned URL](https://github.com/freediving-community/api-server/issues/66)
+- [인프라 구성 및 망분리 정보 정리](https://github.com/freediving-community/api-server/wiki/%EC%9D%B8%ED%94%84%EB%9D%BC-%EA%B5%AC%EC%84%B1%EB%8F%84)
 
 
 
