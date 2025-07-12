@@ -4,11 +4,22 @@
 ## 📖 서비스 소개
 커뮤니티에서 다이빙 관련 정보를 공유하고, 다이빙을 함께 즐길 수 있는 버디 매칭 기능을 제공하는 커뮤니티 서비스
 
-## 🖥 주요 기능
-- 버디 매칭 시스템
-- Tip, 정보 공유 등의 커뮤니티 공간
-- 다이빙풀 입장 시 자격증 검사를 위한 자격증 보관 등의 사용자 편의 기능
+
+## 🙋🏻‍♂️ 팀원
+백엔드 3명 , 디자이너 1명, 프론트엔드 2명
+
+## 🖥 내가 개발한 기능
+
+### 백엔드 개발
+- 유저 서비스 - 회원가입, 마이페이지
+- 인증 서비스 - 인증 / 인가 (JWT 토큰 생성 및 검증)
+- 알림 서비스 - Kafka를 활용한 비동기 푸시 알림
 - 버디 매칭 참여, 게시판 댓글 등 Push 알림
+
+### 인프라 1인 개발
+- Github Actions, Docker를 활용한 CI & CD 환경 구축
+- 운영환경 클라우드 서버 구축 AWS (EC2, Cloudfront, S3, CodeDeploy) , GCP 등 인스턴스 생성 및 관리
+- 개발환경 홈서버 구축 (Self-Hosted, MacMini)
 
 ## 📌 사용 기술
 - Language : Java 21
@@ -17,21 +28,8 @@
 - DevOps : Git, Github Actions, Docker, AWS, Kafka, GCP
 
 
-## 🙋🏻‍♂️ 팀원
-백엔드 3명 , 디자이너 1명, 프론트엔드 2명
 
-### 내가 기여한 부분 
-
-#### 백엔드 개발 참여
-- 유저서비스 - 회원가입, 마이페이지
-- 인증서비스 - 인증 / 인가 (JWT 토큰 생성 및 검증)
-- 알림서비스 - Kafka를 활용한 비동기 푸시 알림
-#### 인프라 1인 구축
-- Github Actions, Docker를 활용한 CI & CD 환경 구축
-- 운영환경 클라우드 서버 구축 AWS (EC2, Cloudfront, S3, CodeDeploy) , GCP 등 인스턴스 생성 및 관리
-- 개발환경 홈서버 구축 (Self-Hosted, MacMini)
-
-## 내가 주도한 부분
+## 📚 협업을 위해 주도한 부분
 - [협업 컨벤션을 위한 Github Project 사용 규칙 정하기](https://github.com/freediving-community/api-server/issues/3)
 - [유저 서비스 도메인 모델링](https://github.com/freediving-community/api-server/issues/1)
 - [소셜로그인 및 서비스 간 JWT 인증/인가 로직 개발 코드](https://github.com/freediving-community/api-server/pull/26/commits/f2a7f94e1cf96d63e821cb1e2099e1ae484854d1)
