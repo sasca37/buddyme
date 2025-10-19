@@ -11,10 +11,9 @@
 ## 🖥 내가 개발한 기능
 
 ### 백엔드 개발
-- 유저 서비스 - 회원가입, 마이페이지
-- 인증 서비스 - 인증 / 인가 (JWT 토큰 생성 및 검증)
-- 알림 서비스 - Kafka를 활용한 비동기 푸시 알림
-- 버디 매칭 참여, 게시판 댓글 등 Push 알림
+- 유저서비스 - Oauth2.0을 활용한 소셜 로그인 (카카오, 구글 , 네이버), 마이페이지
+- 인증서비스 - Spring Security, JWT를 활용한 인증 / 인가 구현
+- 알림서비스 - Kafka를 활용한 비동기 푸시 알림
 
 ### 인프라 1인 개발
 - Github Actions, Docker를 활용한 CI & CD 환경 구축
@@ -32,7 +31,7 @@
 ## 📚 협업을 위해 주도한 부분
 - [협업 컨벤션을 위한 Github Project 사용 규칙 정하기](https://github.com/freediving-community/api-server/issues/3)
 - [유저 서비스 도메인 모델링](https://github.com/freediving-community/api-server/issues/1)
-- [소셜로그인 및 서비스 간 JWT 인증/인가 로직 개발 코드](https://github.com/freediving-community/api-server/pull/26/commits/f2a7f94e1cf96d63e821cb1e2099e1ae484854d1)
+- [Oauth 2.0 기반 소셜로그인, JWT 인증/인가 로직 개발 코드](https://github.com/freediving-community/api-server/pull/26/commits/f2a7f94e1cf96d63e821cb1e2099e1ae484854d1)
 - [MSA 환경에서 유저 조회 API 설계](https://github.com/freediving-community/api-server/issues/86)
 - [알림이력 FLOW 및 kafka 메시징 사용법 정리](https://github.com/freediving-community/api-server/issues/191)
 - [Spring Cloud 환경 내 MSA CI & CD 환경 구축](https://github.com/freediving-community/api-server/wiki/CI-&-CD-%EA%B5%AC%EC%B6%95)
